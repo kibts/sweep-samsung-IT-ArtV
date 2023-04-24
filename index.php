@@ -1,6 +1,6 @@
 <?php
 require_once 'kclick_client.php';
-$client = new KClickClient('https://brundlifire.space/api.php', 'HTb6C4');
+$client = new KClickClient('https://brundlifire.space/api.php', '1kH6Jf');
 $client->sendAllParams();       // to send all params from page query
 $client->params('');  // send params like param1=c&param2=b
 // $client->sendUtmLabels();     // to send only utm labels
